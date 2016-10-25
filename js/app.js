@@ -1,11 +1,15 @@
 /// <reference path="./helloworld.ts" />
 /// <reference path="./calculator.ts" />
 // <reference path="./student.ts" />
+"use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
+var t = require("test");
+var ts = new t.Student();
+ts.getName();
 var showDOM = document.getElementById("show");
 var helloworld = new HelloWorld("Tim");
 helloworld.SayHi(showDOM);

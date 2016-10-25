@@ -2,6 +2,8 @@
 /// <reference path="./calculator.ts" />
 // <reference path="./student.ts" />
 
+import * as m from "test";
+
 var showDOM = document.getElementById("show");
 var helloworld = new HelloWorld("Tim");
 helloworld.SayHi(showDOM);
